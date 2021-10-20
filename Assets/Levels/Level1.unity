@@ -4772,11 +4772,11 @@ PrefabInstance:
     - target: {fileID: 7326869951468389730, guid: d6ff8ceb3c4f0ad4e90f0aec90f0c427, type: 3}
       propertyPath: anim
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1888754902}
     - target: {fileID: 7326869951468389730, guid: d6ff8ceb3c4f0ad4e90f0aec90f0c427, type: 3}
       propertyPath: enemy
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1888754897}
     - target: {fileID: 7326869951468389731, guid: d6ff8ceb3c4f0ad4e90f0aec90f0c427, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -7676,6 +7676,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1888754897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2320884371343920452, guid: 076bde4636103c540b8846bd470233c9, type: 3}
+  m_PrefabInstance: {fileID: 524913136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1888754902 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2320884371343920453, guid: 076bde4636103c540b8846bd470233c9, type: 3}
+  m_PrefabInstance: {fileID: 524913136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1911672209
 GameObject:
   m_ObjectHideFlags: 0
