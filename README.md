@@ -1,2 +1,3 @@
 # Unity-Platformer-Episode-10
-2D platformer for complete beginners in Unity. Episode 10. Adding melee and ranged enemies and giving them the ability to patrol.
+In this episode we'll finally create melee enemies and ranged enemies. Then we'll add a simple patrol AI behavior to our enemies.
+https://www.youtube.com/watch?v=d002CljR-KU&ab_channel=PandemoniumGames
