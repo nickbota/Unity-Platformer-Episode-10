@@ -7,10 +7,6 @@ public class MeleeEnemy : MonoBehaviour
     [SerializeField] private float range;
     [SerializeField] private int damage;
 
-    [Header("Ranged Attack")]
-    [SerializeField] private Transform firepoint;
-    [SerializeField] private GameObject[] fireballs;
-
     [Header("Collider Parameters")]
     [SerializeField] private float colliderDistance;
     [SerializeField] private BoxCollider2D boxCollider;
@@ -46,22 +42,6 @@ public class MeleeEnemy : MonoBehaviour
 
         if (enemyPatrol != null)
             enemyPatrol.enabled = !PlayerInSight();
-    }
-
-    private void RangedAttack()
-    {
-        cooldownTimer = 0;
-        fireballs[FindFireball()].transform.position = firepoint.position;
-        fireballs[FindFireball()].GetComponent<EnemyProjectile>().ActivateProjectile();
-    }
-    private int FindFireball()
-    {
-        for (int i = 0; i < fireballs.Length; i++)
-        {
-            if (!fireballs[i].activeInHierarchy)
-                return i;
-        }
-        return 0;
     }
 
     private bool PlayerInSight()
